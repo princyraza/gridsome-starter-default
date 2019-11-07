@@ -3,9 +3,13 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
+  branch: master
+  site_url: https://eager-curie-10f86e.netlify.com
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
+
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
